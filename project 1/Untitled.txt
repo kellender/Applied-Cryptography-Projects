@@ -1,0 +1,333 @@
+Max length is: 29
+The number of words in the dictionary is: 109583
+The number of 1 letter words are: 1
+The number of 2 letter words are: 1
+The number of 3 letter words are: 140
+The number of 4 letter words are: 853
+The number of 5 letter words are: 3130
+The number of 6 letter words are: 6919
+The number of 7 letter words are: 11492
+The number of 8 letter words are: 16883
+The number of 9 letter words are: 19460
+The number of 10 letter words are: 16693
+The number of 11 letter words are: 11882
+The number of 12 letter words are: 8374
+The number of 13 letter words are: 5812
+The number of 14 letter words are: 3676
+The number of 15 letter words are: 2102
+The number of 16 letter words are: 1159
+The number of 17 letter words are: 583
+The number of 18 letter words are: 229
+The number of 19 letter words are: 107
+The number of 20 letter words are: 39
+The number of 21 letter words are: 29
+The number of 22 letter words are: 11
+The number of 23 letter words are: 4
+The number of 24 letter words are: 2
+The number of 25 letter words are: 0
+The number of 26 letter words are: 1
+The number of 27 letter words are: 0
+The number of 28 letter words are: 0
+The number of 29 letter words are: 1
+Crypt Table
+15 34 67 27 3 70 96 51 
+22 
+79 47 19 
+12 89 38 23 
+49 25 46 13 69 37 102 33 29 65 54 56 97 
+31 62 
+99 84 
+85 45 1 74 95 92 
+9 72 100 18 77 8 76 
+94 
+0 
+59 14 101 98 
+41 42 
+48 53 16 82 57 80 61 
+68 21 50 90 75 11 44 66 
+43 73 
+91 
+26 83 39 64 30 24 
+63 93 86 10 35 55 
+32 78 4 17 7 36 2 5 28 
+60 58 52 
+71 
+81 87 
+88 
+6 40 
+20 
+encrypted text
+The plain text is: 
+bucolic
+coagulates
+cajon
+lodicules
+vivider
+kilos
+defeatist
+vandalized
+rectilinear
+shopping
+kenosises
+decouple
+piranha
+reiterations
+nonconclusively
+corselets
+summonsed
+tacky
+cosmetically
+seraph
+lounge
+warmheartedly
+utilization
+laundries
+lunchers
+biffies
+cutty
+classically
+idiotically
+pontiacs
+squiggle
+trounced
+detectible
+mastication
+microphotography
+injuriousness
+equivalently
+lateralities
+crisp
+sensorial
+stickled
+quaffer
+silhouetting
+mincemeat
+documental
+rhesus
+sharesmen
+candidacies
+ensnarers
+buoyage
+beefsteak
+geranium
+polarizing
+bigfoot
+drown
+41 99 36 59 88 81 15 
+36 76 84 49 99 88 57 92 65 47 
+86 84 44 23 42 
+32 94 5 66 36 33 28 65 22 
+46 55 46 66 6 4 89 
+58 71 32 23 47 
+5 65 54 4 85 92 66 30 21 
+46 13 20 56 80 32 2 17 4 34 
+89 70 36 19 55 32 66 48 4 84 89 
+22 61 43 64 64 35 42 49 
+58 70 52 94 22 55 29 82 3 
+5 78 36 94 99 1 88 18 
+64 71 31 100 48 79 91 
+89 27 2 75 18 31 84 74 81 76 42 30 
+52 43 52 36 94 96 36 69 33 3 81 46 65 69 8 
+36 76 102 39 45 69 60 83 3 
+29 33 7 87 23 42 22 70 5 
+77 100 36 58 8 
+15 16 47 7 70 21 55 86 80 32 32 67 
+3 26 89 57 1 101 
+32 43 99 72 73 4 
+10 84 31 7 40 4 85 89 21 63 56 28 67 
+99 74 55 69 81 17 80 38 2 16 52 
+32 85 99 42 56 31 71 68 30 
+32 33 52 36 61 18 25 47 
+41 2 54 90 35 60 3 
+15 9 92 19 8 
+15 32 85 39 47 95 36 100 32 28 67 
+35 5 71 23 74 66 36 85 28 32 8 
+64 94 96 21 71 24 36 3 
+22 11 33 71 73 73 28 4 
+19 14 43 9 72 15 26 56 
+34 27 92 4 36 77 66 41 88 37 
+7 84 22 92 2 86 100 75 95 43 72 
+87 95 36 31 12 1 79 94 83 43 73 25 57 1 101 67 
+81 72 44 9 14 55 12 9 29 52 68 3 22 
+4 11 9 2 46 57 28 68 42 74 28 8 
+69 100 21 4 25 13 28 95 74 2 70 29 
+36 31 81 30 1 
+29 70 20 47 16 97 2 84 88 
+39 74 55 36 58 69 63 6 
+11 99 24 90 90 18 89 
+29 71 28 53 23 9 70 83 38 95 93 49 
+7 2 96 15 78 87 45 57 92 
+56 0 15 33 87 45 93 50 91 69 
+102 61 78 22 9 30 
+29 101 13 31 26 47 87 78 48 
+15 13 52 5 66 34 24 15 71 45 22 
+78 96 39 42 80 97 82 31 30 
+41 99 23 67 24 49 82 
+41 45 68 90 29 92 68 84 58 
+49 26 25 91 93 71 33 87 
+1 76 28 85 97 95 17 55 52 73 
+41 2 49 54 76 0 75 
+5 89 59 10 52 
+
+Statistics of encrypted text
+0: 2 percent: 0.40568
+1: 6 percent: 1.21704
+2: 10 percent: 2.0284
+3: 7 percent: 1.41988
+4: 10 percent: 2.0284
+5: 7 percent: 1.41988
+6: 2 percent: 0.40568
+7: 5 percent: 1.0142
+8: 5 percent: 1.0142
+9: 7 percent: 1.41988
+10: 2 percent: 0.40568
+11: 3 percent: 0.608519
+12: 2 percent: 0.40568
+13: 4 percent: 0.811359
+14: 2 percent: 0.40568
+15: 9 percent: 1.82556
+16: 3 percent: 0.608519
+17: 3 percent: 0.608519
+18: 4 percent: 0.811359
+19: 3 percent: 0.608519
+20: 2 percent: 0.40568
+21: 5 percent: 1.0142
+22: 9 percent: 1.82556
+23: 6 percent: 1.21704
+24: 4 percent: 0.811359
+25: 4 percent: 0.811359
+26: 4 percent: 0.811359
+27: 2 percent: 0.40568
+28: 10 percent: 2.0284
+29: 8 percent: 1.62272
+30: 6 percent: 1.21704
+31: 8 percent: 1.62272
+32: 12 percent: 2.43408
+33: 7 percent: 1.41988
+34: 3 percent: 0.608519
+35: 3 percent: 0.608519
+36: 17 percent: 3.44828
+37: 1 percent: 0.20284
+38: 2 percent: 0.40568
+39: 4 percent: 0.811359
+40: 1 percent: 0.20284
+41: 6 percent: 1.21704
+42: 7 percent: 1.41988
+43: 6 percent: 1.21704
+44: 2 percent: 0.40568
+45: 5 percent: 1.0142
+46: 5 percent: 1.0142
+47: 7 percent: 1.41988
+48: 3 percent: 0.608519
+49: 6 percent: 1.21704
+50: 1 percent: 0.20284
+51: 0 percent: 0
+52: 9 percent: 1.82556
+53: 1 percent: 0.20284
+54: 3 percent: 0.608519
+55: 8 percent: 1.62272
+56: 5 percent: 1.0142
+57: 5 percent: 1.0142
+58: 5 percent: 1.0142
+59: 2 percent: 0.40568
+60: 2 percent: 0.40568
+61: 3 percent: 0.608519
+62: 0 percent: 0
+63: 2 percent: 0.40568
+64: 4 percent: 0.811359
+65: 4 percent: 0.811359
+66: 7 percent: 1.41988
+67: 5 percent: 1.0142
+68: 5 percent: 1.0142
+69: 7 percent: 1.41988
+70: 7 percent: 1.41988
+71: 9 percent: 1.82556
+72: 4 percent: 0.811359
+73: 5 percent: 1.0142
+74: 6 percent: 1.21704
+75: 3 percent: 0.608519
+76: 5 percent: 1.0142
+77: 2 percent: 0.40568
+78: 5 percent: 1.0142
+79: 2 percent: 0.40568
+80: 4 percent: 0.811359
+81: 6 percent: 1.21704
+82: 3 percent: 0.608519
+83: 3 percent: 0.608519
+84: 8 percent: 1.62272
+85: 6 percent: 1.21704
+86: 3 percent: 0.608519
+87: 6 percent: 1.21704
+88: 5 percent: 1.0142
+89: 8 percent: 1.62272
+90: 4 percent: 0.811359
+91: 3 percent: 0.608519
+92: 7 percent: 1.41988
+93: 3 percent: 0.608519
+94: 6 percent: 1.21704
+95: 6 percent: 1.21704
+96: 4 percent: 0.811359
+97: 3 percent: 0.608519
+98: 0 percent: 0
+99: 8 percent: 1.62272
+100: 5 percent: 1.0142
+101: 3 percent: 0.608519
+102: 2 percent: 0.40568
+Decrypted Text
+
+abbess
+babblings
+migs
+blabbers
+bibber
+ebbs
+slabbery
+scribbles
+scribblers
+pumices
+scribble
+bibbing
+casbah
+subscribing
+mississippians
+blabbing
+blabbing
+ebbs
+mississippi
+badge
+bibbs
+mislabelling
+biblically
+bribable
+bibbers
+scrips
+blob
+scribblers
+inscribers
+imbibes
+bibbing
+gimpier
+cribbings
+slabbering
+bibliographical
+blackballing
+subscribing
+mississippi
+bibs
+babblers
+bibbing
+camass
+absorbingly
+blubbers
+garrisons
+bolls
+bloomers
+barbarisms
+composed
+dimers
+broilers
+visible
+cabbaging
+grippy
+bibs
+Program ended with exit code: 0
