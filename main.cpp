@@ -490,6 +490,10 @@ vector<double> freqOfLettersInEncText(vector<vector<int>>& encryptedText){
     return encFreqLine;
 }
 
+/*
+This is my decryption scheme that attempts to decrypt to the encryptedText.
+vector<string>& dict is the dictionary, vector<vector<string>>& dictByLength sorts the dictionary
+by length of words. Finally vector of vector ints encrypted Text is each word encrypted.*/
 vector<string> decrypt(vector<string>& dict, vector<vector<string>>& dictByLength, vector<vector<int>>& encryptedText){
     
     vector<string> decryptedText;
@@ -577,6 +581,7 @@ int main(){
     
     vector<vector<string>> dictByLength;
     
+    //This sorts the word by length.
     lengthWordSorter(dictionary,dictByLength, max);
     
     for(size_t i=0; i<dictByLength.size(); i++){
@@ -597,6 +602,7 @@ int main(){
         cout<<endl;
     }
     
+    //this is the encrypted text
     cout<<"encrypted text"<<endl;
     vector<vector<int>> encText = encrypt(dictionary, dictByLength);
     vector<int> encInLine;
@@ -606,7 +612,7 @@ int main(){
         }
     }
     
-    
+    //This is the statistics of the encrypted text
     cout<<endl;
     cout<<"Statistics of encrypted text"<<endl;
     for(size_t i=0; i<103; i++){
@@ -615,6 +621,7 @@ int main(){
         cout<<i<<": "<<counter<<" percent: "<<percent<<endl;
     }
     
+    //This is the decrypted text coming out. Obviously it doesn't work.
     cout<<"Decrypted Text"<<endl;
     vector<string> decryptedText = decrypt(dictionary, dictByLength, encText);
     for(size_t i=0; i<decryptedText.size(); i++){
