@@ -12,9 +12,45 @@ using namespace std;
 
 
 int main(){
+	//1) get cipher text
+	string input;
+	cout << "Enter the ciphertext:";
+	getline(cin, input);
+
+	//2) split the cipher text by white space and words and add them to a vector
+	istringstream buf(input);
+    istream_iterator<string> beg(buf), end;
+    vector<string> tokens(beg, end); // done!
+	vector<string> ciphertext;
+
+    for(auto& s: tokens){
+        //std::cout << '"' << s << '"' << '\n';
+		stringstream ss;
+		while(ss << s){
+			string letter;
+			while(getline(ss, letter, ',')){
+				ciphertext.push_back(letter);
+			}
+			ciphertext.push_back(" ");
+		}
+	}
 
 
-	//1) read form the plaintext dictionary and store in memory
+	//3) check for similarities within the cipher text and record in a vector!!!
+	vector<vector<int>> vectorOfpositions;
+	for(size_t i = 0; i < ciphertext.size(); ++i){
+		for(size_t j = 1; j < ciphertext.size(); ++j){
+			if(ciphertext[i] == ciphertext[j]){
+				vector<int> positions;
+				positions.push_back(i);
+				positions.push_back(j);
+				vectorOfpositions.push_back(positions);
+			}
+		}
+	}
+
+	//4) get plain text file and store in memory
+	//rd form file
 	ifstream ifs;
 	ifs.open("plaintext_dictionary.txt");
 	if(!ifs){
@@ -22,13 +58,12 @@ int main(){
 		exit(1);
 	}
 
-	//get the number of plain texts in the file
+	//get the number of plain texts in the file form the title
 	string position, title, tmp;
 	getline(ifs, title); //for the Plaintext Dictionary (5 plaintexts):
 	cout << title << endl; 
 	stringstream ss;
 	ss << title;
-	
 	string numPlaintxt = "";
 	while(!ss.eof()){
 		ss >> tmp;
@@ -38,51 +73,36 @@ int main(){
 			}
 		}
 	}
-
-	vector<vector<int>> vectorOfpositions;
+	
+	//store the plaintext in a vector
 	vector<string> ptvector;
-
-	//store the plaon text in a vector
 	int value = atoi(numPlaintxt.c_str());
 	string plainText, plainTextNumber, trash;
 	for(int i = 0; i < value; ++i){
-		getline(ifs, trash); //White space
-		getline(ifs, plainTextNumber); //The Plaintext number
-		getline(ifs, plainText); //The Plaintext itself
+		getline(ifs, trash);						//White space
+		getline(ifs, plainTextNumber);				//The Plaintext number
+		getline(ifs, plainText);					//The Plaintext itself
 		ptvector.push_back(plainText);
-
-		//find the of the bs...
-		vector<int> positions;
-		int count = 0; // could use a bool instead...
-		for(size_t i = 0; i < plainText.size(); ++i){
-			if(plainText[i] == 'b' && count == 0){
-				positions.push_back(i);
-				++count;
-			}
-			else if(plainText[i] == 'b' && count == 1){
-				positions.push_back(i);
-				++count;
-			}
-		}
-		vectorOfpositions.push_back(positions);
 	}
-
-
-
-
-	//2) get the cipher text form the input
-	string ciphertext;
-	cout << "Enter the ciphertext:";
-	cin >> ciphertext;
-	
-	//4) loop through the plain text vector to see if the positions match
-	for(int i = 0; i < vectorOfpositions.size(); ++i){
-		if(ciphertext[vectorOfpositions[i][0] == ciphertext[vectorOfpositions[i][1]){
-			cout << "My plaintext guess is:" << ptvector[i] << endl;
-		}
-	}
-
 	ifs.close();
 
+
+	//5) compare the ciphertext with the planetext
+	int count = 0;
+	int max = 0;				// max numer of matches
+	int postionOfMatch = 0;
+	for(size_t j = 0; j < ptvector.size(); ++j){
+		for(size_t i = 0; i < vectorOfpositions.size(); ++i){
+			if(ptvector[vectorOfpositions[i][0]] == ptvector[vectorOfpositions[i][1]]){
+				++count;
+			}
+		}
+		if(count > max){
+			max = count;
+			postionOfMatch = j;
+		}
+	}
+
+	cout <<  "My plaintext guess is:" << ptvector[postionOfMatch] << endl;
 	return 0;
 }
